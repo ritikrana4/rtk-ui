@@ -3,7 +3,6 @@ import { ThemeProvider } from '@xstyled/styled-components'
 
 export interface RTKuiProvider {
     children?: React.ReactNode
-    
 }
 export const RTKuiProvider : React.FC<RTKuiProvider> = ({
     children,
